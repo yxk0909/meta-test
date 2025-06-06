@@ -1,0 +1,32 @@
+{
+  "name": "meta",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "imagesloaded": "^5.0.0",
+    "masonry-layout": "^4.2.2",
+    "sass": "^1.89.1",
+    "video.js": "^8.23.3",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@types/imagesloaded": "^4.1.7",
+    "@types/masonry-layout": "^4.2.8",
+    "@types/node": "^22.15.30",
+    "@types/postcss-pxtorem": "^6.1.0",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@vue/tsconfig": "^0.7.0",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.4",
+    "postcss-pxtorem": "^6.1.0",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5",
+    "vue-tsc": "^2.2.8"
+  }
+}
