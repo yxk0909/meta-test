@@ -6,6 +6,7 @@ import { resolve } from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: './',
   plugins: [vue()],
   resolve: {
     extensions: ['.mjs', '.js', '.ts', '.jsx', '.tsx', '.json', '.less', '.css'],
@@ -30,5 +31,8 @@ export default defineConfig({
     hmr: {
       overlay: false
     }
+  },
+  build: {
+    outDir: 'docs'
   }
 })
