@@ -61,7 +61,7 @@ const getDataList = () => {
   const game = url.searchParams.get('game')
 
   const list = Array.from({ length: 10 }, (_, i) => {
-    const num = getRandom(0, imgList.length)
+    const num = getRandom(0, imgList.length - 1)
     const title  = i % 3  === 0 ? '这个是比较长一点的标题这个是比较长一点的标题' : '标题'
     return {
       title: title + (i + 1 + len),
